@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+    border-style: solid black
+  }
+
+  header {
+      border-style: solid black solid;
+  
+    padding: 20px;
+    text-align: left;
+    background: #13293d;
+    color: white;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: row;
+  }
+
+  nav {height: 50px; 
+    
+width: 100%;
+
+background-color:yellow; 
+border: black 10px}
+  
+  
+
+
+
+li {display: inline;
+margin-left: 5px;
+
+
+}
+
+
+h2 {
+  font-color: white;
+  text-align: center;
+  text-decoration: underline;
+  padding: 20px;
+  margin: 5px 5px;
+  float: right;
+  height: 100px;
+  width: 400px;
+  display: inline-block;
+
+}
+
+aside {float: left}
+
+
+
+section {
+margin: 10px;  
+padding: 50px;
+  height: 200px;
+  border: black solid;
+}
+
+article {
+  margin: 10px;  
+  padding: 50px;
+    height: 200px;
+    border: black solid;
+    
+  }
+
+
+.Aboutme {
+  height: 150px;
+  width: 250px;
+  border-right: 5px solid black;
+  text-align: right;
+  padding: 20px;
+  margin: 20px; 
+}
+
+.Work {height: 150px;
+  width: 250px;
+  border-right: 5px solid black;
+  text-align: right;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+.Contact {height: 150px;
+  width: 250px;
+  border-right: 5px solid black;
+  text-align: right;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+.Resume {height: 150px;
+  width: 250px;
+  border-right: 5px solid black;
+  text-align: right;
+  padding: 20px;
+  margin: 20px;
+}
