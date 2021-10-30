@@ -110,4 +110,16 @@ article {
 
 .Contact {text-align: center}
 
+@media screen and (max-width: 768px)
+ {main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}}
 
+@media screen and (max-width: 992px)
+{main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}}
