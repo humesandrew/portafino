@@ -1,97 +1,89 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial;
-    margin: 0;
-    border-style: solid black
-  }
-
-  header {
-      border-style: solid black solid;
-  
-    padding: 20px;
-    text-align: left;
-    background: #082036;
-    color: white;
-    display: flex; 
-    justify-content: flex-start;
-    align-items: row;
-  }
-
-  nav {height: 50px; 
-    
-width: 100%;
-text-align: center;
-padding: 5px;
-background-color:yellow; 
-border: black 10px;
-font-size: 25;
-display: flex;
-justify-content: space-around;
-flex-direction: row;
-flex-wrap: wrap;
-}
-  
-  
-
-
-  
-
-
-
-li {display: inline; margin: 40px;
-  
-
-
-
+  box-sizing: border-box;
 }
 
+body {
+  font-family: Arial;
+  margin: 0;
+  border-style: solid black;
+}
+
+/* Wrote everything from scratch. */
+/* Made header and nav bar as flex boxes*/
 
 
+header {
+  border-style: solid black solid;
+  padding: 20px;
+  text-align: left;
+  background: #082036;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: row;
+}
 
+nav {
+  height: 50px;
 
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  background-color: yellow;
+  border: black 10px;
+  font-size: 25;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
+li {
+  display: inline;
+  margin: 40px;
+}
+/*Made stuff prettier.*/
 
+main {
+  background-color: #f5d2ed;
+}
 
 .profileimage {
   border-radius: 25%;
-  padding: 20px; 
-  display: block; 
+  padding: 20px;
+  display: block;
   margin-left: auto;
-margin-right: auto}
+  margin-right: auto;
+}
+
+/*Drew boxes for content and stylized.*/
 
 section {
-margin: 10px;  
-padding: 40px;
+  margin: 40px;
+  padding: 40px;
   height: 200px;
   border: black solid 2px;
   width: auto;
   border-radius: 10%;
+  background-color: white;
 }
 
-article {
- 
+.special {
   padding: 25px;
-  margin-top: 50px;
-    height: 450px;
-    
-  }
 
-  .workimages {display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
-    text-align: center;
-    color: white;
-    
-  }
+  height: 450px;
+}
 
-  .workimage1 {text-align: center;
-    color: white;}
 
-    
+
+.workimages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+  color: white;
+}
 
 
 .Aboutme {
@@ -100,30 +92,49 @@ article {
   border-right: 5px solid black;
   text-align: right;
   padding: 20px;
-  margin: 20px; 
+  margin: 20px;
 }
 
+/*Added contact section with links that open in new tabs*/
 
-  
-.Contact {text-align: center}
+.Contact {
+  text-align: center;
+}
 
-@media screen and (max-width: 768px)
- {main {
+.contactlinks {
   display: flex;
+  justify-content: space-around;
+  flex-direction: row;
   flex-wrap: wrap;
-  flex-direction: column;
-  
-}}
+}
 
-@media screen and (max-width: 768px)
-{header {background-color:aqua}}
+/*Added responsive elements for different screen sizes. */
+/*Formatted content for different screen sizes with flex boxes. */
 
+@media screen and (max-width: 768px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  header {
+    background-color: aqua;
+  }
+}
 
-@media screen and (max-width: 992px)
-{main {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}}
+@media screen and (max-width: 992px) {
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+}
 
+@media screen and (max-width: 992px) {
+  header {
+    background-color: aqua;
+  }
+}
