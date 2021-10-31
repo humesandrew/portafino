@@ -13,7 +13,7 @@
   
     padding: 20px;
     text-align: left;
-    background: #13293d;
+    background: #082036;
     color: white;
     display: flex; 
     justify-content: flex-start;
@@ -29,7 +29,7 @@ background-color:yellow;
 border: black 10px;
 font-size: 25;
 display: flex;
-justify-content: space-evenly;
+justify-content: space-around;
 flex-direction: row;
 flex-wrap: wrap;
 }
@@ -41,7 +41,7 @@ flex-wrap: wrap;
 
 
 
-li {display: inline;
+li {display: inline; margin: 40px;
   
 
 
@@ -76,21 +76,31 @@ margin: 10px;
 padding: 40px;
   height: 200px;
   border: black solid 2px;
-  border-radius: 25%;
+  width: auto;
+  border-radius: 10%;
 }
 
 article {
  
   padding: 25px;
-    height: 400px;
-    border: black solid;
+  margin-top: 50px;
+    height: 450px;
+    
   }
 
   .workimages {display: flex; 
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
+    text-align: center;
+    color: white;
+    
   }
+
+  .workimage1 {text-align: center;
+    color: white;}
+
+    
 
 
 .Aboutme {
@@ -104,10 +114,6 @@ article {
 
 
   
-
-
-
-
 .Contact {text-align: center}
 
 @media screen and (max-width: 768px)
@@ -115,7 +121,13 @@ article {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  
 }}
+
+@media screen and (max-width: 768px)
+{header {background-color:aqua}}
+
+
 
 @media screen and (max-width: 992px)
 {main {
@@ -123,3 +135,4 @@ article {
   flex-wrap: wrap;
   flex-direction: column;
 }}
+
