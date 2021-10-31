@@ -8,9 +8,8 @@ body {
   border-style: solid black;
 }
 
-/* Wrote everything from scratch. */
+/* I used skeleton HTML and CSS, then wrote everything from scratch. */
 /* Made header and nav bar as flex boxes*/
-
 
 header {
   border-style: solid black solid;
