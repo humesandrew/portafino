@@ -49,20 +49,11 @@ li {display: inline; margin: 40px;
 }
 
 
-h2 {
-  font-color: white;
-  text-align: center;
-  text-decoration: underline;
-  padding: 20px;
-  margin: 5px 5px;
-  float: right;
-  height: 100px;
-  width: 400px;
-  display: inline-block;
 
-}
 
-aside {float: left}
+
+
+
 
 .profileimage {
   border-radius: 25%;
